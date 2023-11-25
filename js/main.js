@@ -1,3 +1,1 @@
-const naam = "Appie's Shop";
-
-alert('Welkom bij );
+alert("Welkom bij de Appie's Shop")
