@@ -1,0 +1,24 @@
+body {
+    background-color: grey;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px 200px 200px 200px 100px;
+    grid-template-rows: repeat(12, 40px);
+}
+
+.header {
+    background-color: black;
+    grid-column: 4 / 10;
+    text-align: center;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.text {
+    text-decoration: none;
+    font-size: 30px;
+    margin: 60px;
+}
