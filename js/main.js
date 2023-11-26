@@ -1,1 +1,0 @@
-alert("Welkom bij de Appie's Shop")

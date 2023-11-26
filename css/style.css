@@ -5,13 +5,12 @@ body {
 .wrapper {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 100px 200px 200px 200px 100px;
     grid-template-rows: repeat(12, 40px);
 }
 
 .header {
-    background-color: black;
-    grid-column: 4 / 10;
+    background-color: darkgrey;
+    grid-column: 3 / 11;
     text-align: center;
     height: 100px;
     border-radius: 20px;
@@ -21,4 +20,16 @@ body {
     text-decoration: none;
     font-size: 30px;
     margin: 60px;
+    text-decoration: underline;
+}
+
+.shop_name {
+    text-align: center;
+    font-size: 90px;
+    grid-row: 8;
+    grid-column: 4 / 10;
+    background-color: transparent;
+    border: 3px solid darkgrey;
+    border-radius: 20px;
+    height: 125px;
 }
